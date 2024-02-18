@@ -326,7 +326,8 @@
                   <h2
                     class="color-primary font-inter text-lg max-sm:text-xs max-md:text-sm font-medium bg-[#1DD10026] border-[#1DD10066] border rounded-lg p-2"
                   >
-                    <i class="fa-regular fa-loveseat"></i> 40 Seats left
+                    <i class="fa-regular fa-loveseat"></i>
+                    <span id="seats">40</span> Seats left
                   </h2>
                 </div>
               </div>
@@ -401,6 +402,530 @@
             </div>
           </div>
           <!-- Seats Info Sub-Section Ending -->
+          <div class="grid grid-cols-2 max-md:grid-cols-1">
+            <!-- Select Seats Sub-Section Starting -->
+            <div
+              class="bg-white max-md:rounded-3xl rounded-tl-3xl rounded-bl-3xl mt-6 p-4 border-r-2 border-[#0307124D] border-dashed max-md:border-none"
+            >
+              <h2
+                class="text-2xl max-sm:text-xl font-raleway font-semibold text-[#030712]"
+              >
+                Select Your Seat
+              </h2>
+              <div
+                class="flex justify-between border-b border-t border-[#03071233] border-dashed my-4"
+              >
+                <h2
+                  class="text-lg font-semibold font-raleway text-[#03071299] my-4"
+                >
+                  <i class="fa-regular fa-loveseat"></i> Available
+                </h2>
+                <h2
+                  class="text-lg font-semibold font-raleway color-primary my-4"
+                >
+                  <i class="fa-solid fa-loveseat"></i> Selected
+                </h2>
+              </div>
+              <div class="w-full flex justify-end">
+                <div
+                  class="bg-[#0307121A] rounded-xl px-6 py-2 max-w-20 flex justify-center"
+                >
+                  <h3 class="text-[#030712B2] text-2xl">
+                    <i class="fa-solid fa-steering-wheel"></i>
+                  </h3>
+                </div>
+              </div>
+              <!-- Seats -->
+              <div class="flex gap-20 my-6">
+                <div class="grid grid-cols-3 gap-5 ml-0">
+                  <div
+                    class="px-6 py-2 max-w-5 flex justify-center items-center"
+                  >
+                    <h3 class="text-[#03071280] text-lg font-inter font-medium">
+                      A
+                    </h3>
+                  </div>
+
+                  <div
+                    id="a1"
+                    class="btn bg-[#F7F8F8] rounded-xl px-6 py-2 max-w-20 flex justify-center"
+                  >
+                    <h3 class="text-[#03071280] text-lg font-inter font-medium">
+                      A1
+                    </h3>
+                  </div>
+                  <div
+                    id="a2"
+                    class="btn bg-[#F7F8F8] rounded-xl px-6 py-2 max-w-20 flex justify-center"
+                  >
+                    <h3 class="text-[#03071280] text-lg font-inter font-medium">
+                      A2
+                    </h3>
+                  </div>
+                  <div
+                    class="px-6 py-2 max-w-10 flex justify-center items-center"
+                  >
+                    <h3 class="text-[#03071280] text-lg font-inter font-medium">
+                      B
+                    </h3>
+                  </div>
+
+                  <div
+                    id="b1"
+                    class="btn bg-[#F7F8F8] rounded-xl px-6 py-2 max-w-20 flex justify-center"
+                  >
+                    <h3 class="text-[#03071280] text-lg font-inter font-medium">
+                      B1
+                    </h3>
+                  </div>
+                  <div
+                    id="b2"
+                    class="btn bg-[#F7F8F8] rounded-xl px-6 py-2 max-w-20 flex justify-center"
+                  >
+                    <h3 class="text-[#03071280] text-lg font-inter font-medium">
+                      B2
+                    </h3>
+                  </div>
+                  <div
+                    class="px-6 py-2 max-w-5 flex justify-center items-center"
+                  >
+                    <h3 class="text-[#03071280] text-lg font-inter font-medium">
+                      C
+                    </h3>
+                  </div>
+
+                  <div
+                    id="c1"
+                    class="btn bg-[#F7F8F8] rounded-xl px-6 py-2 max-w-20 flex justify-center"
+                  >
+                    <h3 class="text-[#03071280] text-lg font-inter font-medium">
+                      C1
+                    </h3>
+                  </div>
+                  <div
+                    id="c1"
+                    class="btn bg-[#F7F8F8] rounded-xl px-6 py-2 max-w-20 flex justify-center"
+                  >
+                    <h3 class="text-[#03071280] text-lg font-inter font-medium">
+                      C2
+                    </h3>
+                  </div>
+                  <div
+                    class="px-6 py-2 max-w-10 flex justify-center items-center"
+                  >
+                    <h3 class="text-[#03071280] text-lg font-inter font-medium">
+                      D
+                    </h3>
+                  </div>
+
+                  <div
+                    id="d1"
+                    class="btn bg-[#F7F8F8] rounded-xl px-6 py-2 max-w-20 flex justify-center"
+                  >
+                    <h3 class="text-[#03071280] text-lg font-inter font-medium">
+                      D1
+                    </h3>
+                  </div>
+                  <div
+                    id="d2"
+                    class="btn bg-[#F7F8F8] rounded-xl px-6 py-2 max-w-20 flex justify-center"
+                  >
+                    <h3 class="text-[#03071280] text-lg font-inter font-medium">
+                      D2
+                    </h3>
+                  </div>
+                  <div
+                    class="px-6 py-2 max-w-5 flex justify-center items-center"
+                  >
+                    <h3 class="text-[#03071280] text-lg font-inter font-medium">
+                      E
+                    </h3>
+                  </div>
+
+                  <div
+                    class="bg-[#F7F8F8] rounded-xl px-6 py-2 max-w-20 flex justify-center"
+                  >
+                    <h3 class="text-[#03071280] text-lg font-inter font-medium">
+                      E1
+                    </h3>
+                  </div>
+                  <div
+                    class="bg-[#F7F8F8] rounded-xl px-6 py-2 max-w-20 flex justify-center"
+                  >
+                    <h3 class="text-[#03071280] text-lg font-inter font-medium">
+                      E2
+                    </h3>
+                  </div>
+                  <div
+                    class="px-6 py-2 max-w-10 flex justify-center items-center"
+                  >
+                    <h3 class="text-[#03071280] text-lg font-inter font-medium">
+                      F
+                    </h3>
+                  </div>
+
+                  <div
+                    class="bg-[#F7F8F8] rounded-xl px-6 py-2 max-w-20 flex justify-center"
+                  >
+                    <h3 class="text-[#03071280] text-lg font-inter font-medium">
+                      F1
+                    </h3>
+                  </div>
+                  <div
+                    class="bg-[#F7F8F8] rounded-xl px-6 py-2 max-w-20 flex justify-center"
+                  >
+                    <h3 class="text-[#03071280] text-lg font-inter font-medium">
+                      F2
+                    </h3>
+                  </div>
+                  <div
+                    class="px-6 py-2 max-w-5 flex justify-center items-center"
+                  >
+                    <h3 class="text-[#03071280] text-lg font-inter font-medium">
+                      G
+                    </h3>
+                  </div>
+
+                  <div
+                    class="bg-[#F7F8F8] rounded-xl px-6 py-2 max-w-20 flex justify-center"
+                  >
+                    <h3 class="text-[#03071280] text-lg font-inter font-medium">
+                      G1
+                    </h3>
+                  </div>
+                  <div
+                    class="bg-[#F7F8F8] rounded-xl px-6 py-2 max-w-20 flex justify-center"
+                  >
+                    <h3 class="text-[#03071280] text-lg font-inter font-medium">
+                      G2
+                    </h3>
+                  </div>
+                  <div
+                    class="px-6 py-2 max-w-10 flex justify-center items-center"
+                  >
+                    <h3 class="text-[#03071280] text-lg font-inter font-medium">
+                      H
+                    </h3>
+                  </div>
+
+                  <div
+                    class="bg-[#F7F8F8] rounded-xl px-6 py-2 max-w-20 flex justify-center"
+                  >
+                    <h3 class="text-[#03071280] text-lg font-inter font-medium">
+                      H1
+                    </h3>
+                  </div>
+                  <div
+                    class="bg-[#F7F8F8] rounded-xl px-6 py-2 max-w-20 flex justify-center"
+                  >
+                    <h3 class="text-[#03071280] text-lg font-inter font-medium">
+                      H2
+                    </h3>
+                  </div>
+                  <div
+                    class="px-6 py-2 max-w-5 flex justify-center items-center"
+                  >
+                    <h3 class="text-[#03071280] text-lg font-inter font-medium">
+                      I
+                    </h3>
+                  </div>
+
+                  <div
+                    class="bg-[#F7F8F8] rounded-xl px-6 py-2 max-w-20 flex justify-center"
+                  >
+                    <h3 class="text-[#03071280] text-lg font-inter font-medium">
+                      I1
+                    </h3>
+                  </div>
+                  <div
+                    class="bg-[#F7F8F8] rounded-xl px-6 py-2 max-w-20 flex justify-center"
+                  >
+                    <h3 class="text-[#03071280] text-lg font-inter font-medium">
+                      I2
+                    </h3>
+                  </div>
+                </div>
+                <div class="grid grid-cols-2 gap-5">
+                  <div
+                    id="a3"
+                    class="btn bg-[#F7F8F8] rounded-xl px-6 py-2 max-w-20 flex justify-center"
+                  >
+                    <h3 class="text-[#03071280] text-lg font-inter font-medium">
+                      A3
+                    </h3>
+                  </div>
+                  <div
+                    id="a4"
+                    class="btn bg-[#F7F8F8] rounded-xl px-6 py-2 max-w-20 flex justify-center"
+                  >
+                    <h3 class="text-[#03071280] text-lg font-inter font-medium">
+                      A4
+                    </h3>
+                  </div>
+                  <div
+                    id="b3"
+                    class="btn bg-[#F7F8F8] rounded-xl px-6 py-2 max-w-20 flex justify-center"
+                  >
+                    <h3 class="text-[#03071280] text-lg font-inter font-medium">
+                      B3
+                    </h3>
+                  </div>
+                  <div
+                    id="b4"
+                    class="btn bg-[#F7F8F8] rounded-xl px-6 py-2 max-w-20 flex justify-center"
+                  >
+                    <h3 class="text-[#03071280] text-lg font-inter font-medium">
+                      B4
+                    </h3>
+                  </div>
+                  <div
+                    id="c3"
+                    class="btn bg-[#F7F8F8] rounded-xl px-6 py-2 max-w-20 flex justify-center"
+                  >
+                    <h3 class="text-[#03071280] text-lg font-inter font-medium">
+                      C3
+                    </h3>
+                  </div>
+                  <div
+                    id="c4"
+                    class="btn bg-[#F7F8F8] rounded-xl px-6 py-2 max-w-20 flex justify-center"
+                  >
+                    <h3 class="text-[#03071280] text-lg font-inter font-medium">
+                      C4
+                    </h3>
+                  </div>
+                  <div
+                    id="d3"
+                    class="btn bg-[#F7F8F8] rounded-xl px-6 py-2 max-w-20 flex justify-center"
+                  >
+                    <h3 class="text-[#03071280] text-lg font-inter font-medium">
+                      D3
+                    </h3>
+                  </div>
+                  <div
+                    id="d4"
+                    class="btn bg-[#F7F8F8] rounded-xl px-6 py-2 max-w-20 flex justify-center"
+                  >
+                    <h3 class="text-[#03071280] text-lg font-inter font-medium">
+                      D4
+                    </h3>
+                  </div>
+                  <div
+                    class="bg-[#F7F8F8] rounded-xl px-6 py-2 max-w-20 flex justify-center"
+                  >
+                    <h3 class="text-[#03071280] text-lg font-inter font-medium">
+                      E3
+                    </h3>
+                  </div>
+                  <div
+                    class="bg-[#F7F8F8] rounded-xl px-6 py-2 max-w-20 flex justify-center"
+                  >
+                    <h3 class="text-[#03071280] text-lg font-inter font-medium">
+                      E4
+                    </h3>
+                  </div>
+                  <div
+                    class="bg-[#F7F8F8] rounded-xl px-6 py-2 max-w-20 flex justify-center"
+                  >
+                    <h3 class="text-[#03071280] text-lg font-inter font-medium">
+                      F3
+                    </h3>
+                  </div>
+                  <div
+                    class="bg-[#F7F8F8] rounded-xl px-6 py-2 max-w-20 flex justify-center"
+                  >
+                    <h3 class="text-[#03071280] text-lg font-inter font-medium">
+                      F4
+                    </h3>
+                  </div>
+                  <div
+                    class="bg-[#F7F8F8] rounded-xl px-6 py-2 max-w-20 flex justify-center"
+                  >
+                    <h3 class="text-[#03071280] text-lg font-inter font-medium">
+                      G3
+                    </h3>
+                  </div>
+                  <div
+                    class="bg-[#F7F8F8] rounded-xl px-6 py-2 max-w-20 flex justify-center"
+                  >
+                    <h3 class="text-[#03071280] text-lg font-inter font-medium">
+                      G4
+                    </h3>
+                  </div>
+                  <div
+                    class="bg-[#F7F8F8] rounded-xl px-6 py-2 max-w-20 flex justify-center"
+                  >
+                    <h3 class="text-[#03071280] text-lg font-inter font-medium">
+                      H3
+                    </h3>
+                  </div>
+                  <div
+                    class="bg-[#F7F8F8] rounded-xl px-6 py-2 max-w-20 flex justify-center"
+                  >
+                    <h3 class="text-[#03071280] text-lg font-inter font-medium">
+                      H4
+                    </h3>
+                  </div>
+                  <div
+                    class="bg-[#F7F8F8] rounded-xl px-6 py-2 max-w-20 flex justify-center"
+                  >
+                    <h3 class="text-[#03071280] text-lg font-inter font-medium">
+                      I3
+                    </h3>
+                  </div>
+                  <div
+                    class="bg-[#F7F8F8] rounded-xl px-6 py-2 max-w-20 flex justify-center"
+                  >
+                    <h3 class="text-[#03071280] text-lg font-inter font-medium">
+                      I4
+                    </h3>
+                  </div>
+                </div>
+              </div>
+
+              <!-- Seats -->
+            </div>
+            <!-- Select Seats Sub-Section Ending -->
+            <!-- Seats Invoice Sub-Section Starting -->
+            <div
+              class="bg-white max-md:rounded-3xl rounded-tr-3xl rounded-br-3xl mt-6 p-4"
+            >
+              <h2
+                class="text-2xl max-sm:text-xl font-raleway font-semibold text-[#030712] mb-4 pb-4 border-b border-[#03071233] border-dashed"
+              >
+                Select Your Seat
+              </h2>
+              <div class="bg-[#F7F8F8] p-4 rounded-2xl my-4">
+                <div
+                  class="flex justify-between border-b border-[#03071233] border-dashed"
+                >
+                  <h2
+                    class="text-base font-medium font-inter text-[#030712] my-4"
+                  >
+                    Seat
+                    <span
+                      id="seat-bought"
+                      class="bg-primary rounded px-2 text-white"
+                      >0</span
+                    >
+                  </h2>
+                  <h2
+                    class="text-base font-medium font-inter text-[#030712] my-4"
+                  >
+                    Class
+                  </h2>
+                  <h2
+                    class="text-base font-medium font-inter text-[#030712] my-4"
+                  >
+                    Price
+                  </h2>
+                </div>
+                <div
+                  class="flex flex-wrap border-b border-[#03071233] font-inter text-[#03071299]"
+                >
+                  <h5 class="w-1/3">C2</h5>
+                  <h5 class="w-1/3 text-center">Economy</h5>
+                  <h5 class="w-1/3 text-end">550</h5>
+                  <h5 class="w-1/3">C2</h5>
+                  <h5 class="w-1/3 text-center">Economy</h5>
+                  <h5 class="w-1/3 text-end">550</h5>
+                </div>
+                <div class="flex justify-between">
+                  <h2
+                    class="text-base font-medium font-inter text-[#030712] my-4"
+                  >
+                    Total Price
+                  </h2>
+
+                  <h2
+                    class="text-base font-medium font-inter text-[#030712] my-4"
+                  >
+                    BDT <span id="totalprice">0</span>
+                  </h2>
+                </div>
+                <div
+                  class="bg-white rounded-xl flex justify-between font-inter p-3 items-center"
+                >
+                  <input
+                    id="coupon"
+                    class="text-[#03071266] text-sm"
+                    type="text"
+                    placeholder="Have any coupon?"
+                  />
+                  <div
+                    id="couponapply"
+                    class="btn bg-primary p-2 px-4 rounded-lg text-white"
+                  >
+                    <h1 class="font-semibold">Apply</h1>
+                  </div>
+                </div>
+                <div class="flex justify-between">
+                  <h2
+                    class="text-base font-medium font-inter text-[#030712] my-4"
+                  >
+                    Grand Total
+                  </h2>
+
+                  <h2
+                    class="text-base font-medium font-inter text-[#030712] my-4"
+                  >
+                    BDT <span id="grandtotal">0</span>
+                  </h2>
+                </div>
+                <h2
+                  class="text-base font-semibold font-inter text-[#030712] my-2"
+                >
+                  Passenger Name*
+                </h2>
+                <label class="input input-bordered flex items-center gap-2">
+                  <input
+                    type="text"
+                    class="grow"
+                    placeholder="Enter your name"
+                  />
+                </label>
+                <h2
+                  class="text-base font-semibold font-inter text-[#030712] my-2"
+                >
+                  Phone Number*
+                </h2>
+                <label class="input input-bordered flex items-center gap-2">
+                  <input
+                    type="number"
+                    class="grow"
+                    placeholder="Enter your phone number"
+                  />
+                </label>
+                <h2
+                  class="text-base font-semibold font-inter text-[#030712] my-2"
+                >
+                  Email ID
+                </h2>
+                <label class="input input-bordered flex items-center gap-2">
+                  <input
+                    type="email"
+                    class="grow"
+                    placeholder="Enter your email id"
+                  />
+                </label>
+                <div
+                  id="next"
+                  class="w-full btn bg-primary rounded-2xl text-white my-4"
+                >
+                  <h1 class="font-extrabold text-xl font-raleway">Next</h1>
+                </div>
+                <div class="flex justify-around font-inter">
+                  <p class="btn btn-link text-[#03071299]">
+                    Terms and Conditions
+                  </p>
+                  <p class="btn btn-link text-[#03071299]">
+                    Cancellation Policy
+                  </p>
+                </div>
+              </div>
+            </div>
+            <!-- Seats Invoice Sub-Section Ending -->
+          </div>
         </div>
       </section>
       <!-- Ticket Booking Section Ending -->
