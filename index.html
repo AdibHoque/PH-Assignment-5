@@ -52,7 +52,7 @@
               <div tabindex="0" role="button" class="btn btn-ghost lg:hidden">
                 <svg
                   xmlns="http://www.w3.org/2000/svg"
-                  class="h-8 w-8"
+                  class="h-6 w-6"
                   fill="none"
                   viewBox="0 0 24 24"
                   stroke="currentColor"
@@ -75,7 +75,9 @@
                 <li><a>Search</a></li>
               </ul>
             </div>
-            <h2 class="text-3xl font-raleway [#131318] font-extrabold">
+            <h2
+              class="text-3xl max-md:text-2xl max-sm:text-xl font-raleway [#131318] font-extrabold"
+            >
               <span class="color-primary">AH</span>-Ticket
             </h2>
           </div>
@@ -107,20 +109,23 @@
         >
           <div class="hero-content text-center text-white font-raleway">
             <div class="">
-              <h1 class="mb-5 text-6xl font-extrabold">
+              <h1
+                class="mb-5 text-6xl max-md:text-5xl max-sm:text-4xl font-extrabold"
+              >
                 End-to-End Travel with<br /><span class="color-primary"
                   >AH Paribahan</span
                 >
               </h1>
-              <p class="mb-5 font-inter text-lg lg:px-48">
+              <p class="mb-2 font-inter text-lg max-sm:text-sm lg:px-48">
                 Find routes, buy tickets, travel hassle-free with our bus
                 booking site. Convenient, secure, and reliable journeys await!
               </p>
-              <button
+              <a
+                href="#buy-tickets"
                 class="btn bg-primary border-none text-black font-bold font-raleway text-xl px-5 py-2 items-center"
               >
                 Buy Tickets
-              </button>
+              </a>
             </div>
           </div>
         </div>
@@ -388,7 +393,7 @@
             <img class="max-sm:hidden" src="./images/info-devider.png" alt="" />
 
             <div
-              class="flex flex-col justify-center items-center w-80 max-sm:w-full mr-8"
+              class="flex flex-col justify-center items-center w-80 max-sm:w-full mr-8 mb-4"
             >
               <img src="./images/fare.png" alt="Taka" />
               <h1
@@ -402,7 +407,7 @@
             </div>
           </div>
           <!-- Seats Info Sub-Section Ending -->
-          <div class="grid grid-cols-2 max-md:grid-cols-1">
+          <div id="buy-tickets" class="grid grid-cols-2 max-md:grid-cols-1">
             <!-- Select Seats Sub-Section Starting -->
             <div
               class="bg-white max-md:rounded-3xl rounded-tl-3xl rounded-bl-3xl mt-6 p-4 border-r-2 border-[#0307124D] border-dashed max-md:border-none"
@@ -428,7 +433,7 @@
               </div>
               <div class="w-full flex justify-end">
                 <div
-                  class="bg-[#0307121A] rounded-xl px-6 py-2 max-w-20 flex justify-center"
+                  class="bg-[#0307121A] rounded-xl px-6 py-2 max-w-20 max-[400px]:px-3 flex justify-center"
                 >
                   <h3 class="text-[#030712B2] text-2xl">
                     <i class="fa-solid fa-steering-wheel"></i>
@@ -437,7 +442,7 @@
               </div>
               <!-- Seats -->
               <div class="flex gap-20 my-6">
-                <div class="grid grid-cols-3 gap-5 ml-0">
+                <div class="grid grid-cols-3 gap-5 max-sm:gap-3 ml-0">
                   <div
                     class="px-6 py-2 max-w-5 flex justify-center items-center"
                   >
@@ -448,7 +453,7 @@
 
                   <div
                     id="a1"
-                    class="btn bg-[#F7F8F8] rounded-xl px-6 py-2 max-w-20 flex justify-center"
+                    class="btn bg-[#F7F8F8] rounded-xl px-6 py-2 max-w-20 max-[400px]:px-3 flex justify-center"
                   >
                     <h3 class="text-[#03071280] text-lg font-inter font-medium">
                       A1
@@ -456,7 +461,7 @@
                   </div>
                   <div
                     id="a2"
-                    class="btn bg-[#F7F8F8] rounded-xl px-6 py-2 max-w-20 flex justify-center"
+                    class="btn bg-[#F7F8F8] rounded-xl px-6 py-2 max-w-20 max-[400px]:px-3 flex justify-center"
                   >
                     <h3 class="text-[#03071280] text-lg font-inter font-medium">
                       A2
@@ -472,7 +477,7 @@
 
                   <div
                     id="b1"
-                    class="btn bg-[#F7F8F8] rounded-xl px-6 py-2 max-w-20 flex justify-center"
+                    class="btn bg-[#F7F8F8] rounded-xl px-6 py-2 max-w-20 max-[400px]:px-3 flex justify-center"
                   >
                     <h3 class="text-[#03071280] text-lg font-inter font-medium">
                       B1
@@ -480,7 +485,7 @@
                   </div>
                   <div
                     id="b2"
-                    class="btn bg-[#F7F8F8] rounded-xl px-6 py-2 max-w-20 flex justify-center"
+                    class="btn bg-[#F7F8F8] rounded-xl px-6 py-2 max-w-20 max-[400px]:px-3 flex justify-center"
                   >
                     <h3 class="text-[#03071280] text-lg font-inter font-medium">
                       B2
@@ -496,7 +501,7 @@
 
                   <div
                     id="c1"
-                    class="btn bg-[#F7F8F8] rounded-xl px-6 py-2 max-w-20 flex justify-center"
+                    class="btn bg-[#F7F8F8] rounded-xl px-6 py-2 max-w-20 max-[400px]:px-3 flex justify-center"
                   >
                     <h3 class="text-[#03071280] text-lg font-inter font-medium">
                       C1
@@ -504,7 +509,7 @@
                   </div>
                   <div
                     id="c1"
-                    class="btn bg-[#F7F8F8] rounded-xl px-6 py-2 max-w-20 flex justify-center"
+                    class="btn bg-[#F7F8F8] rounded-xl px-6 py-2 max-w-20 max-[400px]:px-3 flex justify-center"
                   >
                     <h3 class="text-[#03071280] text-lg font-inter font-medium">
                       C2
@@ -520,7 +525,7 @@
 
                   <div
                     id="d1"
-                    class="btn bg-[#F7F8F8] rounded-xl px-6 py-2 max-w-20 flex justify-center"
+                    class="btn bg-[#F7F8F8] rounded-xl px-6 py-2 max-w-20 max-[400px]:px-3 flex justify-center"
                   >
                     <h3 class="text-[#03071280] text-lg font-inter font-medium">
                       D1
@@ -528,7 +533,7 @@
                   </div>
                   <div
                     id="d2"
-                    class="btn bg-[#F7F8F8] rounded-xl px-6 py-2 max-w-20 flex justify-center"
+                    class="btn bg-[#F7F8F8] rounded-xl px-6 py-2 max-w-20 max-[400px]:px-3 flex justify-center"
                   >
                     <h3 class="text-[#03071280] text-lg font-inter font-medium">
                       D2
@@ -543,14 +548,14 @@
                   </div>
 
                   <div
-                    class="bg-[#F7F8F8] rounded-xl px-6 py-2 max-w-20 flex justify-center"
+                    class="bg-[#F7F8F8] rounded-xl px-6 py-2 max-w-20 max-[400px]:px-3 flex justify-center"
                   >
                     <h3 class="text-[#03071280] text-lg font-inter font-medium">
                       E1
                     </h3>
                   </div>
                   <div
-                    class="bg-[#F7F8F8] rounded-xl px-6 py-2 max-w-20 flex justify-center"
+                    class="bg-[#F7F8F8] rounded-xl px-6 py-2 max-w-20 max-[400px]:px-3 flex justify-center"
                   >
                     <h3 class="text-[#03071280] text-lg font-inter font-medium">
                       E2
@@ -565,14 +570,14 @@
                   </div>
 
                   <div
-                    class="bg-[#F7F8F8] rounded-xl px-6 py-2 max-w-20 flex justify-center"
+                    class="bg-[#F7F8F8] rounded-xl px-6 py-2 max-w-20 max-[400px]:px-3 flex justify-center"
                   >
                     <h3 class="text-[#03071280] text-lg font-inter font-medium">
                       F1
                     </h3>
                   </div>
                   <div
-                    class="bg-[#F7F8F8] rounded-xl px-6 py-2 max-w-20 flex justify-center"
+                    class="bg-[#F7F8F8] rounded-xl px-6 py-2 max-w-20 max-[400px]:px-3 flex justify-center"
                   >
                     <h3 class="text-[#03071280] text-lg font-inter font-medium">
                       F2
@@ -587,14 +592,14 @@
                   </div>
 
                   <div
-                    class="bg-[#F7F8F8] rounded-xl px-6 py-2 max-w-20 flex justify-center"
+                    class="bg-[#F7F8F8] rounded-xl px-6 py-2 max-w-20 max-[400px]:px-3 flex justify-center"
                   >
                     <h3 class="text-[#03071280] text-lg font-inter font-medium">
                       G1
                     </h3>
                   </div>
                   <div
-                    class="bg-[#F7F8F8] rounded-xl px-6 py-2 max-w-20 flex justify-center"
+                    class="bg-[#F7F8F8] rounded-xl px-6 py-2 max-w-20 max-[400px]:px-3 flex justify-center"
                   >
                     <h3 class="text-[#03071280] text-lg font-inter font-medium">
                       G2
@@ -609,14 +614,14 @@
                   </div>
 
                   <div
-                    class="bg-[#F7F8F8] rounded-xl px-6 py-2 max-w-20 flex justify-center"
+                    class="bg-[#F7F8F8] rounded-xl px-6 py-2 max-w-20 max-[400px]:px-3 flex justify-center"
                   >
                     <h3 class="text-[#03071280] text-lg font-inter font-medium">
                       H1
                     </h3>
                   </div>
                   <div
-                    class="bg-[#F7F8F8] rounded-xl px-6 py-2 max-w-20 flex justify-center"
+                    class="bg-[#F7F8F8] rounded-xl px-6 py-2 max-w-20 max-[400px]:px-3 flex justify-center"
                   >
                     <h3 class="text-[#03071280] text-lg font-inter font-medium">
                       H2
@@ -631,24 +636,24 @@
                   </div>
 
                   <div
-                    class="bg-[#F7F8F8] rounded-xl px-6 py-2 max-w-20 flex justify-center"
+                    class="bg-[#F7F8F8] rounded-xl px-6 py-2 max-w-20 max-[400px]:px-3 flex justify-center"
                   >
                     <h3 class="text-[#03071280] text-lg font-inter font-medium">
                       I1
                     </h3>
                   </div>
                   <div
-                    class="bg-[#F7F8F8] rounded-xl px-6 py-2 max-w-20 flex justify-center"
+                    class="bg-[#F7F8F8] rounded-xl px-6 py-2 max-w-20 max-[400px]:px-3 flex justify-center"
                   >
                     <h3 class="text-[#03071280] text-lg font-inter font-medium">
                       I2
                     </h3>
                   </div>
                 </div>
-                <div class="grid grid-cols-2 gap-5">
+                <div class="grid grid-cols-2 gap-5 max-sm:gap-3">
                   <div
                     id="a3"
-                    class="btn bg-[#F7F8F8] rounded-xl px-6 py-2 max-w-20 flex justify-center"
+                    class="btn bg-[#F7F8F8] rounded-xl px-6 py-2 max-w-20 max-[400px]:px-3 flex justify-center"
                   >
                     <h3 class="text-[#03071280] text-lg font-inter font-medium">
                       A3
@@ -656,7 +661,7 @@
                   </div>
                   <div
                     id="a4"
-                    class="btn bg-[#F7F8F8] rounded-xl px-6 py-2 max-w-20 flex justify-center"
+                    class="btn bg-[#F7F8F8] rounded-xl px-6 py-2 max-w-20 max-[400px]:px-3 flex justify-center"
                   >
                     <h3 class="text-[#03071280] text-lg font-inter font-medium">
                       A4
@@ -664,7 +669,7 @@
                   </div>
                   <div
                     id="b3"
-                    class="btn bg-[#F7F8F8] rounded-xl px-6 py-2 max-w-20 flex justify-center"
+                    class="btn bg-[#F7F8F8] rounded-xl px-6 py-2 max-w-20 max-[400px]:px-3 flex justify-center"
                   >
                     <h3 class="text-[#03071280] text-lg font-inter font-medium">
                       B3
@@ -672,7 +677,7 @@
                   </div>
                   <div
                     id="b4"
-                    class="btn bg-[#F7F8F8] rounded-xl px-6 py-2 max-w-20 flex justify-center"
+                    class="btn bg-[#F7F8F8] rounded-xl px-6 py-2 max-w-20 max-[400px]:px-3 flex justify-center"
                   >
                     <h3 class="text-[#03071280] text-lg font-inter font-medium">
                       B4
@@ -680,7 +685,7 @@
                   </div>
                   <div
                     id="c3"
-                    class="btn bg-[#F7F8F8] rounded-xl px-6 py-2 max-w-20 flex justify-center"
+                    class="btn bg-[#F7F8F8] rounded-xl px-6 py-2 max-w-20 max-[400px]:px-3 flex justify-center"
                   >
                     <h3 class="text-[#03071280] text-lg font-inter font-medium">
                       C3
@@ -688,7 +693,7 @@
                   </div>
                   <div
                     id="c4"
-                    class="btn bg-[#F7F8F8] rounded-xl px-6 py-2 max-w-20 flex justify-center"
+                    class="btn bg-[#F7F8F8] rounded-xl px-6 py-2 max-w-20 max-[400px]:px-3 flex justify-center"
                   >
                     <h3 class="text-[#03071280] text-lg font-inter font-medium">
                       C4
@@ -696,7 +701,7 @@
                   </div>
                   <div
                     id="d3"
-                    class="btn bg-[#F7F8F8] rounded-xl px-6 py-2 max-w-20 flex justify-center"
+                    class="btn bg-[#F7F8F8] rounded-xl px-6 py-2 max-w-20 max-[400px]:px-3 flex justify-center"
                   >
                     <h3 class="text-[#03071280] text-lg font-inter font-medium">
                       D3
@@ -704,77 +709,77 @@
                   </div>
                   <div
                     id="d4"
-                    class="btn bg-[#F7F8F8] rounded-xl px-6 py-2 max-w-20 flex justify-center"
+                    class="btn bg-[#F7F8F8] rounded-xl px-6 py-2 max-w-20 max-[400px]:px-3 flex justify-center"
                   >
                     <h3 class="text-[#03071280] text-lg font-inter font-medium">
                       D4
                     </h3>
                   </div>
                   <div
-                    class="bg-[#F7F8F8] rounded-xl px-6 py-2 max-w-20 flex justify-center"
+                    class="bg-[#F7F8F8] rounded-xl px-6 py-2 max-w-20 max-[400px]:px-3 flex justify-center"
                   >
                     <h3 class="text-[#03071280] text-lg font-inter font-medium">
                       E3
                     </h3>
                   </div>
                   <div
-                    class="bg-[#F7F8F8] rounded-xl px-6 py-2 max-w-20 flex justify-center"
+                    class="bg-[#F7F8F8] rounded-xl px-6 py-2 max-w-20 max-[400px]:px-3 flex justify-center"
                   >
                     <h3 class="text-[#03071280] text-lg font-inter font-medium">
                       E4
                     </h3>
                   </div>
                   <div
-                    class="bg-[#F7F8F8] rounded-xl px-6 py-2 max-w-20 flex justify-center"
+                    class="bg-[#F7F8F8] rounded-xl px-6 py-2 max-w-20 max-[400px]:px-3 flex justify-center"
                   >
                     <h3 class="text-[#03071280] text-lg font-inter font-medium">
                       F3
                     </h3>
                   </div>
                   <div
-                    class="bg-[#F7F8F8] rounded-xl px-6 py-2 max-w-20 flex justify-center"
+                    class="bg-[#F7F8F8] rounded-xl px-6 py-2 max-w-20 max-[400px]:px-3 flex justify-center"
                   >
                     <h3 class="text-[#03071280] text-lg font-inter font-medium">
                       F4
                     </h3>
                   </div>
                   <div
-                    class="bg-[#F7F8F8] rounded-xl px-6 py-2 max-w-20 flex justify-center"
+                    class="bg-[#F7F8F8] rounded-xl px-6 py-2 max-w-20 max-[400px]:px-3 flex justify-center"
                   >
                     <h3 class="text-[#03071280] text-lg font-inter font-medium">
                       G3
                     </h3>
                   </div>
                   <div
-                    class="bg-[#F7F8F8] rounded-xl px-6 py-2 max-w-20 flex justify-center"
+                    class="bg-[#F7F8F8] rounded-xl px-6 py-2 max-w-20 max-[400px]:px-3 flex justify-center"
                   >
                     <h3 class="text-[#03071280] text-lg font-inter font-medium">
                       G4
                     </h3>
                   </div>
                   <div
-                    class="bg-[#F7F8F8] rounded-xl px-6 py-2 max-w-20 flex justify-center"
+                    class="bg-[#F7F8F8] rounded-xl px-6 py-2 max-w-20 max-[400px]:px-3 flex justify-center"
                   >
                     <h3 class="text-[#03071280] text-lg font-inter font-medium">
                       H3
                     </h3>
                   </div>
                   <div
-                    class="bg-[#F7F8F8] rounded-xl px-6 py-2 max-w-20 flex justify-center"
+                    class="bg-[#F7F8F8] rounded-xl px-6 py-2 max-w-20 max-[400px]:px-3 flex justify-center"
                   >
                     <h3 class="text-[#03071280] text-lg font-inter font-medium">
                       H4
                     </h3>
                   </div>
                   <div
-                    class="bg-[#F7F8F8] rounded-xl px-6 py-2 max-w-20 flex justify-center"
+                    class="bg-[#F7F8F8] rounded-xl px-6 py-2 max-w-20 max-[400px]:px-3 flex justify-center"
                   >
                     <h3 class="text-[#03071280] text-lg font-inter font-medium">
                       I3
                     </h3>
                   </div>
                   <div
-                    class="bg-[#F7F8F8] rounded-xl px-6 py-2 max-w-20 flex justify-center"
+                    class="bg-[#F7F8F8] rounded-xl px-6 py-2 max-w-20 max-[400px]:px-3 flex justify-center"
                   >
                     <h3 class="text-[#03071280] text-lg font-inter font-medium">
                       I4
@@ -848,7 +853,7 @@
                 >
                   <input
                     id="coupon"
-                    class="text-[#03071266] text-sm"
+                    class="text-[#03071266] text-sm max-sm:w-[60%]"
                     type="text"
                     placeholder="Have any coupon?"
                   />
@@ -915,10 +920,10 @@
                   <h1 class="font-extrabold text-xl font-raleway">Next</h1>
                 </div>
                 <div class="flex justify-around font-inter">
-                  <p class="btn btn-link text-[#03071299]">
+                  <p class="btn btn-link text-[#03071299] max-sm:max-w-[65%]">
                     Terms and Conditions
                   </p>
-                  <p class="btn btn-link text-[#03071299]">
+                  <p class="btn btn-link text-[#03071299] max-sm:max-w-[60%]">
                     Cancellation Policy
                   </p>
                 </div>
@@ -932,5 +937,6 @@
     </main>
 
     <footer></footer>
+    <script src="script.js"></script>
   </body>
 </html>
