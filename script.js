@@ -89,6 +89,6 @@ numba.addEventListener("input", function () {
     next.removeAttribute("disabled")
   }
   else {
-    next.setAttribute("disabled")
+    next.setAttribute("disabled", true)
   }
 })
