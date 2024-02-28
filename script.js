@@ -1,7 +1,14 @@
+let buttonIds = [];
 
-const buttonIds = ["a1", "a2", "a3", "a4", "b1", "b2", "b3", "b4", "c1", "c2", "c3", "c4", "d1", "d2", "d3", "d4"]
+for (let i = 'a'.charCodeAt(0); i <= 'j'.charCodeAt(0); i++) {
+  for (let j = 1; j <= 4; j++) {
+    buttonIds.push(String.fromCharCode(i) + j);
+  }
+}
+const seatIds = ["A", "B", "C", "D", "E", "F", "G", "H", "I", "J"]
 let usedButtons = []
 let discount = 0
+const seatsContainer = document.getElementById("seats-container")
 const coupon = document.getElementById("coupon")
 const couponfield = document.getElementById("couponfield")
 const couponapply = document.getElementById("couponapply")
@@ -10,6 +17,52 @@ const discountprice = document.getElementById("discountprice")
 const grandTotal = document.getElementById("grandtotal")
 const numba = document.getElementById("number")
 const next = document.getElementById("next")
+placeSeats()
+function placeSeats() {
+  seatIds.forEach(letter => {
+    seatsContainer.innerHTML += `<div
+    class="px-6 py-2 max-w-5 flex justify-center items-center col-span-1 max-sm:col-span-2"
+  >
+    <h3 class="text-[#03071280] text-lg font-inter font-medium">
+      ${letter}
+    </h3>
+  </div>
+
+  <div
+    id="${letter.toLowerCase()}1"
+    class="btn bg-[#F7F8F8] rounded-xl px-6 py-2 max-w-20 max-[400px]:px-3 flex justify-center col-span-2"
+  >
+    <h3 class="text-[#03071280] text-lg font-inter font-medium">
+      ${letter}1
+    </h3>
+  </div>
+  <div
+    id="${letter.toLowerCase()}2"
+    class="btn bg-[#F7F8F8] rounded-xl px-6 py-2 max-w-20 max-[400px]:px-3 flex justify-center col-span-2"
+  >
+    <h3 class="text-[#03071280] text-lg font-inter font-medium">
+      ${letter}2
+    </h3>
+  </div>
+  <div class="w-full h-full col-span-1"></div>
+  <div
+    id="${letter.toLowerCase()}3"
+    class="btn bg-[#F7F8F8] rounded-xl px-6 py-2 max-w-20 max-[400px]:px-3 flex justify-center col-span-2"
+  >
+    <h3 class="text-[#03071280] text-lg font-inter font-medium">
+      ${letter}3
+    </h3>
+  </div>
+  <div
+    id="${letter.toLowerCase()}4"
+    class="btn bg-[#F7F8F8] rounded-xl px-6 py-2 max-w-20 max-[400px]:px-3 flex justify-center col-span-2"
+  >
+    <h3 class="text-[#03071280] text-lg font-inter font-medium">
+      ${letter}4
+    </h3>
+  </div>`
+  })
+}
 
 function addTransaction(id) {
   const transaction = document.getElementById("transaction")
@@ -92,3 +145,4 @@ numba.addEventListener("input", function () {
     next.setAttribute("disabled", true)
   }
 })
+{/*  */ }
