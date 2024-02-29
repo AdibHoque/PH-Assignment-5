@@ -45,29 +45,16 @@
   <body>
     <header>
       <!-- Navbar Start -->
-      <nav class="mx-auto my-6 md:px-6 lg:px-24">
+      <nav class="mx-auto my-2 md:my-6 md:px-6 lg:px-24">
         <div class="navbar">
           <div class="navbar-start">
             <div class="dropdown">
               <div
                 tabindex="0"
                 role="button"
-                class="btn btn-lg btn-ghost lg:hidden"
+                class="bg-[#1DD10026] mr-2 color-primary font-raleway font-bold border-[#1DD10066] btn btn-sm md:btn-md btn-ghost lg:hidden"
               >
-                <svg
-                  xmlns="http://www.w3.org/2000/svg"
-                  class="w-6 h-6 ml-0"
-                  fill="none"
-                  viewBox="0 0 24 24"
-                  stroke="currentColor"
-                >
-                  <path
-                    stroke-linecap="round"
-                    stroke-linejoin="round"
-                    stroke-width="2"
-                    d="M4 6h16M4 12h8m-8 6h16"
-                  />
-                </svg>
+                <i class="fa-solid fa-bars"></i>
               </div>
               <ul
                 tabindex="0"
@@ -107,7 +94,7 @@
       </nav>
       <!-- Navbar End -->
       <!-- Banner Start -->
-      <div class="container px-6 mx-auto my-6 lg:px-24">
+      <div class="container px-6 mx-auto md:my-6 lg:px-24">
         <div
           class="hero w-full h-[80vh] max-sm:h-[60vh] bg-[url('./images/banner.png')] bg-no-repeat rounded-3xl"
         >
@@ -647,7 +634,7 @@
     <footer class="bg-[#030712]">
       <div class="container px-12 py-24 mx-auto lg:px-24">
         <div class="flex items-center justify-between mb-12 max-sm:flex-col">
-          <div class="flex flex-col gap-4 mr-6">
+          <div class="flex flex-col items-center justify-center gap-4">
             <h2
               class="text-3xl font-extrabold text-center text-white max-md:text-2xl max-sm:text-xl font-raleway"
             >
@@ -658,7 +645,9 @@
               better.
             </p>
           </div>
-          <div class="flex flex-col gap-4 mx-6 mt-6">
+          <div
+            class="flex flex-col items-center justify-center gap-4 mx-6 mt-6"
+          >
             <h5 class="text-xl font-semibold text-white font-raleway">
               Download our app
             </h5>
